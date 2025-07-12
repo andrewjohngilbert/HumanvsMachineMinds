@@ -60,8 +60,8 @@
   <meta name="twitter:title" content="Human vs. Machine Minds: Ego-Centric Action Recognition Compared">
   <meta name="twitter:description" content="Explore how humans and AI differ in ego-centric action recognition. Discover insights from the Epic ReduAct dataset and our groundbreaking research.">
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="asserts/HumanvsMachineMindsTeaserWide.png">
-  <meta name="twitter:card" content="summary_large_image">
+  <mmeta name="twitter:image" content="assets/HumanvsMachineMindsTeaserWide.jpg">
+   <meta name="twitter:card" content="summary_large_image">
   <!-- Keywords for your paper to be indexed by-->
   <meta name="keywords" content="Machine Learning, Human Understanding, Video Understanding,andrew Gilbert, Sadegh Rahmani, Quoc Vuong, Frank Guerin, Filip Rybansky, Human vs Machine Minds, ECCV 2024, HCV 2024, Action Recognition, Ego-centric Videos, Depth Estimation">
   <meta name="author" content="Sadegh Rahmani, Filip Rybansky, Quoc Vuong, Frank Guerin, Andrew Gilbert">
@@ -102,7 +102,8 @@
               <span class="author-block">
                 <a href="https://www.linkedin.com/in/sadegh-rahmani" target="_blank">Sadegh Rahmani*</a>[1]<sup></sup>,</span>
                 <span class="author-block">
-                  <a href="F" target="_blank">Filip Rybansky*</a>[2]<sup></sup>,</span>
+                <a href="https://www.linkedin.com/in/filip-rybansky" target="_blank">Filip Rybansky*</a>[2]<sup></sup>,
+                </span>
                   <span class="author-block">
                     <a href="https://www.ncl.ac.uk/medical-sciences/people/profile/quocvuong.html" target="_blank">Quoc Vuong</a>[2]<sup></sup>,</span>
                 <span class="author-block">
@@ -267,8 +268,8 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <h2 class="title is-3">Key Findings from the Epic ReduAct Dataset</h3></h2>
-      <img src="assets/HumanvsMachineMindsRecogGap.jpg">
+<h2 class="title is-3">Key Findings from the Epic ReduAct Dataset</h2>
+<img src="assets/HumanvsMachineMindsRecogGap.jpg" alt="Recognition gap frequency distribution for Easy, Hard, and combined sets">
       <h2 class="subtitle has-text-centered">
         This image presents the recognition-gap frequency distribution for the Easy, Hard and combined sets (a,b,c), which allows for comparison between humans and AI model. Our results show a similar distribution pattern to previous work with images (d). 
         Similarly, AI models exhibit some improvement in image recognition, whereas human accuracy consistently declines. Humans also experience a sharper decrease in recognition performance compared to AI models (d). Our results further show that humans are susceptible to substantial losses in recognition confidence. In contrast, spatial reductions can enhance the AI model's ability to detect actions, as evidenced by negative recognition gaps. The frequency distributions are also broader for humans compared to the AI model, showing more diverse reductions than the AI model reductions in recognition gaps, which are more gradual. These findings indicate that, despite advancements in AI models, the gap between human and machine recognition capabilities persists. 
@@ -312,33 +313,43 @@
 
 
 <!--BibTex citation -->
-  <section class="section" id="BibTeX">
+<section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
-      <pre><code>@inproceedings{Rahmani:HumanvsMachine:CVPRWS:2025,
-        AUTHOR = Rahmani, Sadegh and Rybansky, Filip and Vuong, Quoc and Guerin, Frank and Gilbert, Andrew ",
-        TITLE = "Human vs. Machine Minds: Ego-Centric Action Recognition Compared",
-        BOOKTITLE = "IEEE/CVF Conference on Computer Vision and Pattern Recognition - Workshop on Multimodal Algorithmic Reasoning (MAR'25)",
-        YEAR = "2025",
-        }</code></pre>
+      <button class="button is-small is-info" onclick="copyBibtex()">Copy BibTeX</button>
+<pre><code>@inproceedings{Rahmani:HumanvsMachine:CVPRWS:2025,
+  AUTHOR = "Rahmani, Sadegh and Rybansky, Filip and Vuong, Quoc and Guerin, Frank and Gilbert, Andrew",
+  TITLE = "Human vs. Machine Minds: Ego-Centric Action Recognition Compared",
+  BOOKTITLE = "IEEE/CVF Conference on Computer Vision and Pattern Recognition - Workshop on Multimodal Algorithmic Reasoning (MAR'25)",
+  YEAR = "2025",
+      }</code></pre>
+      <script>
+      function copyBibtex() {
+        var bib = document.getElementById('bibtex-entry').innerText;
+        navigator.clipboard.writeText(bib);
+      }
+      </script>
     </div>
 </section>
+
 <!--End BibTex citation -->
 
 
-  <footer class="footer">
+
+
+<footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
 
           <p>
-            <strong>Human vs. Machine Minds: Ego-Centric Action Recognition Compared</strong> by <a href="https://www.linkedin.com/in/sadegh-rahmani" target="_blank">Sadegh Rahmani</a>, <a href="https://andrewjohngilbert.github.io/" target="_blank">Andrew Gilbert</a>, <a href="https://www.ncl.ac.uk/medical-sciences/people/profile/quocvuong.html" target="_blank">Quoc Vuong</a>, <a href="https://www.surrey.ac.uk/people/frank-guerin" target="_blank">Frank Guerin</a>, and <a href="F" target="_blank">Filip Rybansky</a>.
+            <strong>Human vs. Machine Minds: Ego-Centric Action Recognition Compared</strong> by <a href="https://www.linkedin.com/in/sadegh-rahmani" target="_blank">Sadegh Rahmani</a>, <a href="https://andrewjohngilbert.github.io/" target="_blank">Andrew Gilbert</a>, <a href="https://www.ncl.ac.uk/medical-sciences/people/profile/quocvuong.html" target="_blank">Quoc Vuong</a>, <a href="https://www.surrey.ac.uk/people/frank-guerin" target="_blank">Frank Guerin</a>, and <a href="https://www.linkedin.com/in/filip-rybansky" target="_blank">Filip Rybansky</a>.
             <br>
             <br>
             <br>
             This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            You are free to borrow the design of this website; we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
 
